@@ -17,7 +17,7 @@ Fixed position of main menu with js function onScroll. Used, alse js for make ac
 <p>high web performance with proper use of html, css and js according to prescribed w3c standards </p>
 <p>Click on next image to see demo</p>
 <a target="_blank" href="https://teme.izrada-sajta.rs/grid-flex/">
-xx</a>
+<img class="" src="https://teme.izrada-sajta.rs/grid-flex/grid-flex.jpg" alt="high performance responsive layouts" title=" Klick to see demo high performance responsive layouts" width="280"></a>
 <h2>Score of LightHouse</h2>
 <p>You can click on the next photo to directly testing performace of this example white google LightHouse</p>
 <a target="_blank" href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://teme.izrada-sajta.rs/grid-flex/">
