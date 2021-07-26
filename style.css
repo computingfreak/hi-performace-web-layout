@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2021, 1:33:28 PM
+    Author     : PiSi
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+ font-size: 1.2em;
+}
+.main{
+
+}
+.logo{
+    padding: 15px 0 0 15px;
+}
+a{text-decoration: none;}
+h1,h2,h3,h4,h5,h6,p{padding: 10px;color: rgb(122,36,42);}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-nav a {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: .7em 2em;
+  background: rgb(122,36,42);
+background: linear-gradient(0deg, rgba(122,36,42,1) 0%, rgba(161,27,34,1) 45%, rgba(122,36,42,1) 100%);
+ 
+    color: white;
+}
+    .push-right {
+        margin-left: 10px;
+        
+    }
+.main-nav a:not(:last-child){
+    margin-left: 10px;
+}
+.main-nav a:hover{
+    
+  background: rgb(122,36,42);
+background: linear-gradient(0deg, rgba(161,27,34,1) 0%, rgba(122,36,42,1) 45%, rgba(161,27,34,1) 100%);
+}
+.main-nav a:not(:first-child){display: none;}
+.main-nav-opened a{display: initial!important;}
+.nav-fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0;
+    transition: background 1s;
+    background: white;
+    
+}
+.nav-fixed a{
+    
+        
+}
+.nav-fixed a:not(:last-child){
+    margin-left: 10px;
+}
+.article-flex{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+.article-flex-figure{       
+        padding: 10px;
+        text-align: center;
+        
+    }
+
+    .auto-img{ /*  visibility: hidden; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+    }
+    
+   
+    .article-flex-btn{
+        margin: 10px;
+        display: inherit;
+        text-align: center;
+        padding: 12px 12px;
+        border: 1px solid #a11b22;
+        color: white;
+        background: rgb(122,36,42);
+background: linear-gradient(0deg, rgba(122,36,42,1) 0%, rgba(161,27,34,1) 45%, rgba(122,36,42,1) 100%);
+    }
+
+
+
+
+@media screen and (min-width:666px) {
+    .main-nav{
+        flex-direction: row;
+    }
+    .main-nav-mob-btn{
+        display: none;
+    }
+    .main-nav a:not(:first-child){
+        display: initial;
+        
+        margin-right: 10px;
+        flex-direction: row;
+    }  
+    .push-right {
+        margin-left: auto;
+        margin-right: 0;
+    }
+.article-flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .article-flex-h2{
+        flex: 100%;
+    }
+    .article-flex-figure{
+        flex: 40%;   
+      
+    }
+    .article-flex:nth-child(odd)  .article-flex-figure{
+        order:3;
+    }
+   
+    .article-flex-text{
+        flex: 60%;
+    }
+
+    
+}
+@media screen and (min-width:940px) {
+    .layout{
+        display: grid;
+        grid-template-areas: 'header header header header'
+            'main main main aside'
+            'footer footer footer footer';
+    }
+    .header{grid-area:header;}
+    .main{grid-area:main;min-height: 80vh}
+    .aside{grid-area:aside;}
+    .footer{grid-area:footer;}
+
+    
+}
