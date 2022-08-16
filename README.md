@@ -1,4 +1,4 @@
-# hi-performace-web-layout
+# hi-performance-web-layout
 This old school example shows the combined use of flex and grid techniques in creating modern web designe, responsive layouts with high performance 
 
 <h2>HTML 5 sematical tags</h2>
@@ -20,6 +20,6 @@ Fixed position of main menu with js function onScroll. Used, alse js for make ac
 <a target="_blank" href="https://teme.izrada-sajta.rs/grid-flex/">
 <img class="" src="https://teme.izrada-sajta.rs/grid-flex/grid-flex_1.jpg" alt="high performance responsive layouts" title=" Klick to see demo high performance responsive layouts" width="280"></a>
 <h2>Score of LightHouse</h2>
-<p>You can click on the next photo to directly testing performace of this example white google LightHouse</p>
+<p>You can click on the next photo to directly testing performance of this example white google LightHouse</p>
 <a target="_blank" href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://teme.izrada-sajta.rs/grid-flex/">
 <img class="" src="https://izrada-sajta.rs/frontend/web/uploads/all/sta-je-kvalitetan-sajt-.jpg" alt="high performance responsive layouts" title=" Klick to test with Lighthouse performance responsive layouts" width="280">
